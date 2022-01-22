@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>pokemon</title>
+</head>
+<body class="bg-warning">
+
+   <section class="pokemon__section">
+       <div class="container text-center">
+
+        <img 
+        class="pokemons__img mb-5 "  
+        src="./images/pokemon.svg" 
+        alt="Pokemon's logo"
+        width="610"
+        height="225"
+        >
+         
+
+        <form class="form">
+            <input 
+            class="input col-3 mb-3 " 
+            type="text" 
+            name="name" 
+            placeholder="Name" 
+            required
+            >
+
+            <input 
+            class="input col-3 mb-3 " 
+            type="text" 
+            name="type" 
+            placeholder="Type" 
+            required
+            >
+
+            <input 
+            class="input  col-3 mb-3 " 
+            type="number" 
+            name="weight" 
+            placeholder="Weight" 
+            required
+            >
+
+            <input 
+            class="input col-3 mb-3 " 
+            type="number" 
+            name="height" 
+            placeholder="Height" 
+            required
+            >
+            
+            <input 
+            class="input col-3 mb-3 " 
+            type="text" 
+            name="url" 
+            placeholder="Url" 
+            required
+            >
+
+            <button  class="button mb-5" type="submit">Add new Pokemon</button>
+        </form>
+
+
+        <ul class="pokemon__list  list-unstyled row"></ul>
+
+       </div>
+   </section>
+    
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
